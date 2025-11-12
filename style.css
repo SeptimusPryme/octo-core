@@ -105,13 +105,31 @@
   }
 
   .game-card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 220px;
-    padding: 15px;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .badge-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .badge {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    transition: transform 0.3s;
+    line-height: 30px;
+    font-size: 16px;
   }
 
   .game-card:hover {
