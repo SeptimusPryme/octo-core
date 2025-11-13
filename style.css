@@ -161,3 +161,16 @@
     font-size: 14px;
     color: #555;
   }
+
+  #bgg-footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  #bgg-footer img {
+    height: 40px;
+    cursor: pointer;
+  }
